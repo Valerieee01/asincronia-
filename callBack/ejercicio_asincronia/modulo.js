@@ -1,4 +1,4 @@
-import {asignacion, users} from "./data.js";
+import {asignaciones, users} from "./data.js";
 
 export function getUserById(id, callback) {
     const user = users.find(function (user) {
@@ -12,13 +12,3 @@ export function getUserById(id, callback) {
 }
 
 
-export function getUserByName(name) {
-    const user = users.find(function (user) {
-       return user.name === name
-    })
-     if (!user) {
-        console.log(`No encontramos usuario con el id ${name}`);
-        
-     }
-     return user;
-}

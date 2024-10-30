@@ -63,7 +63,7 @@ export const users = [
         id: 9,
         name: "Edison Barrios",
         instructor:  false,
-        asignacion: [ 2, 3, 4, 5, 6, 7]
+        asignacion: [ ]
 
     },
     
@@ -74,7 +74,7 @@ export const users = [
 
     }
 ];
-export const asignacion = [
+export const asignaciones = [
     {
         id: 1 ,
         name: "git"

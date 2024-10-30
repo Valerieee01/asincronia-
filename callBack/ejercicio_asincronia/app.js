@@ -1,10 +1,11 @@
 import { getUserById , getUserByName} from "./modulo.js";
 
-getUserById(66, function (error, user) {
+getUserById(6, function (error, user) {
+    
     if (error) {
-        user === "No encontrado";
+        console.log(error, user);
     } else {
-        console.log(user);
+        console.log(error, user);
     }
 });
 

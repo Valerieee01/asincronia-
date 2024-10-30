@@ -6,9 +6,9 @@ export function getUserById(id, callback) {
     })
      if (!user) {
         console.log(`No encontramos usuario con el id ${id}`);
-        
+     } else {
+        callback(null, user);
      }
-     callback(null, user)
 }
 
 
